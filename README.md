@@ -3,6 +3,8 @@
 <h2>Foi desafiado para criar um site que codifica textos</h2>
 
 <p>As tecnologias usadas foram: </p>
-* HTML
-* CSS
-* JavaScript
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
