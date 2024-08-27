@@ -1,9 +1,9 @@
 @import url(./reset.css);
-@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 * {
   box-sizing: border-box;
-  background: #020424;
-  font-family: "Kode Mono", monospace;
+  background: #063f06;
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
   line-height: 150%;
   font-size: 2rem;
@@ -48,7 +48,7 @@ main {
   width: 25rem;
   height: 100%;
   border-radius: 2rem;
-  background: white;
+  background: #857cff;
 }
 
 .mensagem {
@@ -57,8 +57,8 @@ main {
   flex-shrink: 0;
   border: none;
   border-radius: 2rem;
-  background: #929292;
-  color:#f3f5fc;
+  background: #857cff;
+  color:#ffffff;
 }
 
 .mensagem:focus {
@@ -73,8 +73,8 @@ main {
 }
 
 .informacao h6 {
-  color: #fbff00;
-  font-family: "Kode Mono", monospace;
+  color: #ffffff;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
   line-height: 150%;
@@ -84,7 +84,7 @@ main {
   display: flex;
   align-items: left;
   justify-content: left;
-  gap: 5rem;
+  gap: 1rem;
   margin-top: 1.125rem;
   position: relative;
   bottom: 0;
@@ -98,11 +98,11 @@ main {
   gap: 0.5rem;
   width: 20.5rem;
   border-radius: 1.5rem;
-  background: #058505;
+  background: #eff30a;
   border: none;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
-  font-family: "Kode Mono", monospace;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   cursor: pointer;
@@ -110,7 +110,7 @@ main {
 }
 
 .btn-encriptar:hover {
-  background-color: rgb(116, 211, 131);
+  background-color: rgb(172, 175, 82);
 }
 
 .btn-desencriptar {
@@ -121,10 +121,10 @@ main {
   gap: 0.5rem;
   width: 20.5rem;
   border-radius: 1.5rem;
-  background: #d8dfe8;
-  color: #000000;
+  background: #156ada;
+  color: #ffffff;
   text-align: center;
-  font-family: "Kode Mono", monospace;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   cursor: pointer;
@@ -133,7 +133,7 @@ main {
 }
 
 .btn-desencriptar:hover {
-  background-color: #2968e6;
+  background-color: #011a4b;
 }
 
 .btn-copiar {
@@ -150,7 +150,7 @@ main {
 
   color: #ffffff;
   text-align: center;
-  font-family: "Kode Mono", monospace;
+  font-family: "Space Grotesk", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   cursor: pointer;
